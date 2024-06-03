@@ -12,8 +12,8 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "❁ 𝗥𝗼𝗻𝗮𝗹𝗱 𝗕𝗼𝘁 ❁",
-	"prefix": "•",
+	"nickNameBot": "༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻",
+	"prefix": "¥",
 	"adminOnly": {
 		
                  
@@ -23,7 +23,7 @@
 		"ignoreCommand": []
 	},
 	"adminBot": [
-		"100084606198768"
+		"61559119588245"
 		
 	],
 	"whiteListMode": {
