@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "𝗥𝗼𝗻𝗮𝗹𝗱 🍁 \n╭───────╯•╰───────╮\nhttps://www.facebook.com/sory.ronald.alexandre \n╰───────╮•╭───────╯\n";
+const doNotDelete = "𝘼𝙍𝘾𝘼𝙉𝙊 \n╭───────╯•╰───────╮\nhttps://www.facebook.com/profile.php?id=100091833939051\n╰───────╮•╭───────╯\n";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -43,8 +43,8 @@ module.exports = {
 
 	langs: {
 		vi: {
-			help: " |I{•------» ✰...𝗢𝗣𝗧𝗜𝗠𝗨𝗦....✰ «------•}I| \n%1\n |I{•------» ✰...𝗢𝗣𝗧𝗜𝗠𝗨𝗦....✰ «------•}I| \n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n |I{•------» ✰...𝗢𝗣𝗧𝗜𝗠𝗨𝗦....✰ «------•}I| \n│ %6\n |I{•------» ✰...𝗢𝗣𝗧𝗜𝗠𝗨𝗦....✰ «------•}I| ",
-			help2: "%1├───────⭔\n➬❦....... » Hiện tại bot có %2 lệnh có thể sử dụng\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó\n│ %4\n╰─────────────⭓",
+			help: " 𝘼𝙪𝙧𝙖 𝘽𝙚𝙡𝙡𝙖 𝙁𝙞𝙤𝙧𝙖 \n%1\n 𝙈𝙖𝙧𝙚 𝘽𝙚𝙡𝙞𝙤 𝙁𝙞𝙤𝙧𝙚 \n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n 𝘼𝙪𝙧𝙖 𝘽𝙚𝙡𝙡𝙖 𝙁𝙞𝙤𝙧𝙖 \n│ %6\n 𝙈𝙖𝙧𝙚 𝘽𝙚𝙡𝙞𝙞 𝙁𝙞𝙤𝙧𝙚",
+			help2: "%1├───────⭔\n☞....... » Hiện tại bot có %2 lệnh có thể sử dụng\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó\n│ %4\n╰─────────────⭓",
 			commandNotFound: "Lệnh \"%1\" không tồn tại",
 			getInfoCommand: "╭── NAME ────⭓\n│ %1\n❏❖❏❖❏❖ - ❖❏❖❏❖❏ INFO\n│ Mô tả: %2\n│ Các tên gọi khác: %3\n│ Các tên gọi khác trong nhóm bạn: %4\n│ Version: %5\n│ Role: %6\n│ Thời gian mỗi lần dùng lệnh: %7s\n│ Author: %8\n❏❖❏❖❏❖ - ❖❏❖❏❖❏ Usage\n│%9\n❏❖❏❖❏❖ - ❖❏❖❏❖❏ Notes\n│ Nội dung bên trong <XXXXX> là có thể thay đổi\n│ Nội dung bên trong [a|b|c] là a hoặc b hoặc c\n╰──────⭔",
 			onlyInfo: "╭── INFO ────⭓\n│ Tên lệnh: %1\n│ Mô tả: %2\n│ Các tên gọi khác: %3\n│ Các tên gọi khác trong nhóm bạn: %4\n│ Version: %5\n│ Role: %6\n│ Thời gian mỗi lần dùng lệnh: %7s\n│ Author: %8\n╰─────────────⭓",
@@ -60,10 +60,10 @@ module.exports = {
 			pageNotFound: "Trang %1 không tồn tại"
 		},
 		en: {
-			help: "╔═❃• ✰..𝗥𝗢𝗡𝗔𝗟𝗗..✰ •❃═╗\n%1\n ╚═❃• ✰..𝗥𝗢𝗡𝗔𝗟𝗗..✰ •❃═╝\n➳ 𝒑𝒂𝒈𝒆  [ %2/%3 ]\n➳𝒋𝒆 𝒅𝒊𝒔𝒑𝒐𝒔𝒆 𝒂𝒄𝒕𝒖𝒆𝒍𝒍𝒆𝒎𝒆𝒏𝒕 𝒅𝒆  %4 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔 𝒒𝒖𝒆 𝒕𝒖 𝒑𝒆𝒖𝒙 𝒕𝒆𝒔𝒕𝒆𝒓 😉\n➳𝗘́𝗖𝗥𝗜𝗧  %5help <page> 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒕𝒐𝒖𝒕𝒆𝒔 𝒎𝒆𝒔 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔..💖\n➳𝗘́𝗖𝗥𝗜𝗧  %5help 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒆𝒕 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒇𝒐𝒏𝒄𝒕𝒊𝒐𝒏𝒏𝒆 𝒍𝒂 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆.💖\n├────────⭔\n│ %6\n╰─────────────⭓",
-			help2: "%1├───────⭔\n➳𝑎𝑐𝑡𝑢𝑒𝑙𝑙𝑒𝑚𝑒𝑛𝑡 𝑗'𝑎𝑖 𝑒𝑛𝑣𝑖𝑟𝑜𝑛  %2 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑒𝑠 𝑞𝑢𝑒 𝑡𝑢 𝑝𝑒𝑢𝑥 𝑢𝑡𝑖𝑙𝑖𝑠𝑒𝑟 𝑒𝑡 𝑡𝑒𝑠𝑡𝑒́...😉\n➳ 𝗘́𝗖𝗥𝗜𝗧%3help <command name> \n𝑝𝑜𝑢𝑟 𝑣𝑜𝑖𝑟 𝑐𝑜𝑚𝑚𝑒𝑛𝑡 𝑓𝑜𝑛𝑐𝑡𝑖𝑜𝑛𝑛𝑒 𝑙𝑎 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑒...💖│ %4\n╰─────────────⭓",
+			help: "╔═❃• ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻ •❃═╗\n%1\n ╚═❃• ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻ •❃═╝\n➳ 𝒑𝒂𝒈𝒆  [ %2/%3 ]\n➳𝒋𝒆 𝒅𝒊𝒔𝒑𝒐𝒔𝒆 𝒂𝒄𝒕𝒖𝒆𝒍𝒍𝒆𝒎𝒆𝒏𝒕 𝒅𝒆  %4 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔 𝒒𝒖𝒆 𝒕𝒖 𝒑𝒆𝒖𝒙 𝒕𝒆𝒔𝒕𝒆𝒓 😉\n➳𝗘́𝗖𝗥𝗜𝗧  %5help <page> 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒕𝒐𝒖𝒕𝒆𝒔 𝒎𝒆𝒔 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔..💀\n➳𝗘́𝗖𝗥𝗜𝗧  %5help 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒆𝒕 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒇𝒐𝒏𝒄𝒕𝒊𝒐𝒏𝒏𝒆 𝒍𝒂 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆.💀\n├────────⭔\n│ %6\n╰─────────────⭓",
+			help2: "%1├───────⭔\n➳𝑎𝑐𝑡𝑢𝑒𝑙𝑙𝑒𝑚𝑒𝑛𝑡 𝑗'𝑎𝑖 𝑒𝑛𝑣𝑖𝑟𝑜𝑛  %2 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑒𝑠 𝑞𝑢𝑒 𝑡𝑢 𝑝𝑒𝑢𝑥 𝑢𝑡𝑖𝑙𝑖𝑠𝑒𝑟 𝑒𝑡 𝑡𝑒𝑠𝑡𝑒́...😉\n➳ 𝗘́𝗖𝗥𝗜𝗧%3help <command name> \n𝑝𝑜𝑢𝑟 𝑣𝑜𝑖𝑟 𝑐𝑜𝑚𝑚𝑒𝑛𝑡 𝑓𝑜𝑛𝑐𝑡𝑖𝑜𝑛𝑛𝑒 𝑙𝑎 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑒...💀│ %4\n╰─────────────⭓",
 			commandNotFound: "Command \"%1\" does not exist",
-			getInfoCommand: "╭── NAME ────⭓\n│ %1\n❏❖❏❖❏❖ - ❖❏❖❏❖❏ INFO\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n❏❖❏❖❏❖ - ❖❏❖❏❖❏ Usage\n%9\n❏❖❏❖❏❖ - ❖❏❖❏❖❏ Notes\n│ The content inside <XXXXX> can be changed\n│ The content inside [a|b|c] is a or b or c\n╰──────⭔",
+			getInfoCommand: "╭── NAME ────⭓\n│ %1\n᯽✫᯽✫᯽✫᯽✫᯽✫᯽INFO\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n᯽✫᯽✫᯽✫᯽✫᯽✫᯽✫᯽ Usage\n%9\n᯽✫᯽✫᯽✫᯽᯽✫᯽✫᯽ Notes\n│ The content inside <XXXXX> can be changed\n│ The content inside [a|b|c] is a or b or c\n╰──────⭔",
 			onlyInfo: "╭── INFO ────⭓\n│ Command name: %1\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n╰─────────────⭓",
 			onlyUsage: "╭── USAGE ────⭓\n│%1\n╰─────────────⭓",
 			onlyAlias: "╭── ALIAS ────⭓\n│ Other names: %1\n│ Other names in your group: %2\n╰─────────────⭓",
