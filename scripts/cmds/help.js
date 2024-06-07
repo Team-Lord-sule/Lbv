@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "𝘼𝙍𝘾𝘼𝙉𝙊 \n╭───────╯•╰───────╮\nhttps://www.facebook.com/profile.php?id=100091833939051\n╰───────╮•╭───────╯\n";
+const doNotDelete = "𝘼𝙍𝘾𝘼𝙉𝙊 \n____________________\nhttps://www.facebook.com/profile.php?id=61559119588245\n____________________\n";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -127,7 +127,7 @@ module.exports = {
 
 				const returnArray = allPage[page - 1] || [];
 				const startNumber = (page - 1) * numberOfOnePage + 1;
-				msg += (returnArray || []).reduce((text, item, index) => text += `☛...🌸${index + startNumber}${index + startNumber < 10 ? " " : ""}. ${item.data}\n`, '').slice(0, -1);
+				msg += (returnArray || []).reduce((text, item, index) => text += `☞ ${index + startNumber}${index + startNumber < 10 ? " " : ""}. ${item.data}\n`, '').slice(0, -1);
 				await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
 			}
 			else if (sortHelp == "category") {
@@ -146,8 +146,8 @@ module.exports = {
 				}
 				arrayInfo.sort((a, b) => (a.category < b.category ? -1 : 1));
 				arrayInfo.forEach((data, index) => {
-					const categoryUpcase = `${index == 0 ? `╭` : ``}🧘🏽‍♂️ 𝗰𝗺𝗱 𝘁𝘆𝗽𝗲 ➮${data.category.toUpperCase()} ${index == 0 ? "⭓" : "...🤸🏽‍♂️🍁"}`;
-					data.names = data.names.sort().map(item => item = `☛...🌸 ${item}`);
+					const categoryUpcase = `${index == 0 ? `╭` : ``}➳ 𝙰𝚀𝚄𝙰 𝙲𝙼𝙳'𝚂 ➮${data.category.toUpperCase()} ${index == 0 ? "⭓" : "🌷"}`;
+					data.names = data.names.sort().map(item => item = `✘...💜${item}`);
 					msg += `${categoryUpcase}\n${data.names.join("\n")}\n`;
 				});
 				message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
