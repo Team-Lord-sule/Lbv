@@ -47,7 +47,7 @@ module.exports = {
 			saturday: "Saturday",
 			sunday: "Sunday",
 			alreadyReceived: "You have already received the gift",
-			received: "You have received %1 coin and %2 exp"
+			received: "𝙏𝙪 𝙖𝙨 𝙙𝙧𝙤𝙞𝙩 𝙖 %1 $ 𝙚𝙩 %2 𝙚𝙭𝙥"
 		}
 	},
 
@@ -77,7 +77,7 @@ module.exports = {
 
 		const userData = await usersData.get(senderID);
 		if (userData.data.lastTimeGetReward === dateTime)
-			return message.reply(getLang("alreadyReceived"));
+			return message.reply(getLang("𝙋𝙡𝙪𝙨 𝙙𝙚 𝙧𝙖𝙩𝙞𝙤𝙣 𝙥𝙤𝙪𝙧 𝙩𝙤𝙞 𝙥𝙤𝙪𝙧 𝙖𝙪𝙟𝙤𝙪𝙧𝙙'𝙝𝙪𝙞 😒"));
 
 		const getCoin = Math.floor(reward.coin * (1 + 20 / 100) ** ((currentDay == 0 ? 7 : currentDay) - 1));
 		const getExp = Math.floor(reward.exp * (1 + 20 / 100) ** ((currentDay == 0 ? 7 : currentDay) - 1));
