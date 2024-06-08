@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 4 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n💙[ ${resultString} ]💙\n\n🎉 | 𝑭𝑬𝑳𝑰𝑪𝑰𝑻𝑨𝑻𝑰𝑶𝑵 𝑯𝑼𝑴𝑨𝑰𝑵\n\n𝑻𝑼 𝑹𝑬𝑴𝑷𝑶𝑹𝑻𝑬 🎀${winAmount}€🎀 😶`);
+      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n💙[ ${resultString} ]💙\n🎉 | 𝑭𝑬𝑳𝑰𝑪𝑰𝑻𝑨𝑻𝑰𝑶𝑵 𝑯𝑼𝑴𝑨𝑰𝑵,𝑻𝑼 𝑹𝑬𝑴𝑷𝑶𝑹𝑻𝑬 🎀${winAmount}€🎀 😶`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n😈[ ${resultString} ]😈\n\n😷 | 𝑻𝑼 𝑷𝑬𝑹𝑫𝑺 𝑱𝑼𝑺𝑻𝑬 🌾${betAmount}€🌾 𝑹𝑰𝑬𝑵 𝑫𝑬 𝑮𝑹𝑨𝑽𝑬👌`);
+      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n😈[ ${resultString} ]😈\n😷 | 𝑻𝑼 𝑷𝑬𝑹𝑫𝑺 𝑱𝑼𝑺𝑻𝑬 🌾${betAmount}€🌾 𝑹𝑰𝑬𝑵 𝑫𝑬 𝑮𝑹𝑨𝑽𝑬👌`);
     }
   }
 };
