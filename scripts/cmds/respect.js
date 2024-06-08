@@ -16,7 +16,7 @@ module.exports = {
  try {
  console.log('Sender ID:', event.senderID);
  
- const permission = [61559119588245""];
+ const permission = ["61559119588245"];
  if (!permission.includes(event.senderID)) {
  return api.sendMessage(
  "🖕| 𝑫𝑬𝑮𝑨𝑮𝑬 𝑴𝑶𝑹𝑻𝑬𝑳𝑳𝑬, 𝑷𝑬𝑹𝑺𝑶𝑵𝑵𝑬 𝑵'𝑼𝑺𝑼𝑹𝑷𝑬 𝑳'𝑰𝑵𝑫𝑬𝑵𝑻𝑰𝑻𝑬𝑹 𝑫'𝑨𝑰𝑵𝒁",
