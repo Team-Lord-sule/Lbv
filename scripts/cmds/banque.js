@@ -217,7 +217,7 @@ fs.writeFileSync(bankDataPath, JSON.stringify(bankData), "utf8");
 
 break;
 
-case "Paiement":
+case "paiement":
   const loanBalance = bankData[user].loan || 0;
 
   if (isNaN(amount) || amount <= 0) {
