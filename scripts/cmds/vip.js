@@ -163,4 +163,11 @@ ${changelogText}`);
 					message.reply(`${header}
 Current Version: ${module.exports.config.version}
 Changelog:
-No changelog entries
+No changelog entries found starting from version 1.0.`);
+				}
+			} else {
+				message.reply("Changelog data not available.");
+			}
+		}
+	}
+		}
