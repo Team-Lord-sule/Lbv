@@ -31,7 +31,7 @@ module.exports = {
 		},
 		en: {
 			missingMessage: "Entrez le message pour que je puisse l'envoyer dans tous les groupes ",
-			notification: "🛎️ 𝗡𝗼𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 🤴🏽",
+			notification: "卍 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 𝑵𝑶𝑻𝑰 卍",
 			sendingNotification: " %1 groupe identifier 📬",
 			sentNotification: "✅ le message est envoyé dans %1 avec succès",
 			errorSendingNotification: "An error occurred while sending to %1 groups:\n%2"
@@ -43,7 +43,7 @@ module.exports = {
 		if (!args[0])
 			return message.reply(getLang("missingMessage"));
 		const formSend = {
-			body: `${getLang("notification")}\n══════════════════\n${args.join(" ")} \n══════════════════\n`,
+			body: `${getLang("notification")}\n____________________\n${args.join(" ")} \n____________________\n °•✮•°`,
 			attachment: await getStreamsFromAttachment(
 				[
 					...event.attachments,
