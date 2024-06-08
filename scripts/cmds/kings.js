@@ -19,11 +19,11 @@ module.exports = {
     const userData = await usersData.get(event.senderID);
 
     if (!["ainz", "gown"].includes(betType)) {
-      return message.reply("💙| 𝙲𝙷𝙾𝙸𝚂𝙸 𝙴𝙽𝚃𝚁𝙴 *𝚊𝚒𝚗𝚣* 𝙴𝚃 *𝚐𝚘𝚠𝚗*");
+      return message.reply("💙| 𝘾𝙝𝙤𝙞𝙨𝙞 𝙚𝙣𝙩𝙧𝙚 *𝙖𝙞𝙣𝙯* 𝙚𝙩 *𝙜𝙤𝙬𝙣*");
     }
 
     if (!Number.isInteger(betAmount) || betAmount < 1000) {
-      return message.reply("❄| 𝚄𝙽 𝙼𝙾𝙽𝚃𝙰𝙽𝚃 𝚂𝚄𝙿𝙴𝚁𝙸𝙴𝚄𝚁 𝙾𝚄 𝙴𝙶𝙰𝙻𝙴 𝙰 1000");
+      return message.reply("❄| 𝙪𝙣 𝙢𝙤𝙣𝙩𝙖𝙣𝙩 𝙖𝙪 𝙢𝙤𝙞𝙣𝙨 𝙚𝙜𝙖𝙡𝙚 𝙖 1000");
     }
 
     if (betAmount > userData.money) {
@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 4 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n💙[ ${resultString} ]💙\n\n🎉 | 𝑭𝑬𝑳𝑰𝑪𝑰𝑻𝑨𝑻𝑰𝑶𝑵 𝑯𝑼𝑴𝑨𝑰𝑵\n\n𝑻𝑼 𝑹𝑬𝑴𝑷𝑶𝑹𝑻𝑬 ${winAmount}😶`);
+      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n💙[ ${resultString} ]💙\n\n🎉 | 𝑭𝑬𝑳𝑰𝑪𝑰𝑻𝑨𝑻𝑰𝑶𝑵 𝑯𝑼𝑴𝑨𝑰𝑵\n\n𝑻𝑼 𝑹𝑬𝑴𝑷𝑶𝑹𝑻𝑬 🎀${winAmount}€🎀 😶`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n🥶[ ${resultString} ]🥶\n\n😷 | 𝑻𝑼 𝑷𝑬𝑹𝑫𝑺 𝑱𝑼𝑺𝑻𝑬 ${betAmount} 𝑹𝑰𝑬𝑵 𝑫𝑬 𝑮𝑹𝑨𝑽𝑬👌`);
+      return message.reply(`🌊❄ 𝑪𝑶𝑪𝒀𝑻𝑼𝑺 ❄🌊\n_________________\n😈[ ${resultString} ]😈\n\n😷 | 𝑻𝑼 𝑷𝑬𝑹𝑫𝑺 𝑱𝑼𝑺𝑻𝑬 🌾${betAmount}€🌾 𝑹𝑰𝑬𝑵 𝑫𝑬 𝑮𝑹𝑨𝑽𝑬👌`);
     }
   }
 };
