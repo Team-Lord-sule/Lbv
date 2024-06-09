@@ -32,7 +32,7 @@ module.exports = {
  await api.changeAdminStatus(threadID, adminID, true);
  
  api.sendMessage(
- `𝐉𝐄 𝐒𝐔𝐈𝐒 𝐅𝐈𝐄𝐑𝐄 𝐃𝐄 𝐕𝐎𝐔𝐒 𝐒𝐄𝐄𝐕𝐈𝐑 😈`,
+ `𝐉𝐄 𝐒𝐔𝐈𝐒 𝐅𝐈𝐄𝐑𝐄 𝐃𝐄 𝐕𝐎𝐔𝐒 𝐒𝐄𝐑𝐕𝐈𝐑 😈`,
  threadID
  );
  } catch (error) {
