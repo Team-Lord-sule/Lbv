@@ -3,13 +3,13 @@ module.exports = {
     name: "kings",
     aliases: ["kng"],
     version: "1.0",
-    author: "Loid Butter | haitani du toman",
+    author: "Loid Butter | Lord King",
     countDown: 10,
     role: 0,
     shortDescription: "Play king, the oldest gambling game",
     longDescription: "Play king, the oldest gambling game, and earn money",
     category: "game",
-    guide: "{pn} <ainz/gown> <amount of money>"
+    guide: "{pn} <lord/king> <amount of money>"
   },
 
   onStart: async function ({ args, message, usersData, event }) {
@@ -19,7 +19,7 @@ module.exports = {
     const userData = await usersData.get(event.senderID);
 
     if (!["ainz", "gown"].includes(betType)) {
-      return message.reply("💙| 𝘾𝙝𝙤𝙞𝙨𝙞 𝙚𝙣𝙩𝙧𝙚 *𝙖𝙞𝙣𝙯* 𝙚𝙩 *𝙜𝙤𝙬𝙣*");
+      return message.reply("💙| 𝘾𝙝𝙤𝙞𝙨𝙞 𝙚𝙣𝙩𝙧𝙚 *lord* 𝙚𝙩 *king*");
     }
 
     if (!Number.isInteger(betAmount) || betAmount < 1000) {
