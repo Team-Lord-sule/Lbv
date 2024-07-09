@@ -3,8 +3,8 @@ const moment = require('moment-timezone');
 
 module.exports = {
   config: {
-    name: "ainzgc",
-    aliases: ["ainzgc"],
+    name: "kngc",
+    aliases: ["lordgc"],
     version: "1.0",
     author: "AceGun",
     countDown: 5,
@@ -39,7 +39,7 @@ module.exports = {
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage("🍷 | 𝘛𝘢 𝘦𝘵𝘦 𝘢𝘫𝘰𝘶𝘵𝘦𝘳 𝘢𝘶 𝑻𝑶𝑴𝑩𝑬𝑨𝑼 𝑫𝑬 𝑵𝑨𝒁𝑨𝑹𝑰𝑲. 𝘙𝘦𝘨𝘢𝘳𝘥𝘦 𝘵𝘦𝘴 𝘴𝘱𝘢𝘮𝘴 𝘦𝘵 𝘪𝘯𝘷𝘪𝘵𝘦 𝘮𝘦𝘴𝘴𝘢𝘨𝘦 𝘴𝘪 𝘵𝘶 𝘵𝘳𝘰𝘶𝘷𝘦 𝘱𝘢𝘴 𝘭𝘦 𝘨𝘳𝘰𝘶𝘱𝘦", event.threadID);
+        api.sendMessage("🍷 | 𝘛𝘢 𝘦𝘵𝘦 𝘢𝘫𝘰𝘶𝘵𝘦𝘳 𝘢𝘶 ☞Lord𖣘King☜ ༺ ༒. 𝘙𝘦𝘨𝘢𝘳𝘥𝘦 𝘵𝘦𝘴 𝘴𝘱𝘢𝘮𝘴 𝘦𝘵 𝘪𝘯𝘷𝘪𝘵𝘦 𝘮𝘦𝘴𝘴𝘢𝘨𝘦 𝘴𝘪 𝘵𝘶 𝘵𝘳𝘰𝘶𝘷𝘦 𝘱𝘢𝘴 𝘭𝘦 𝘨𝘳𝘰𝘶𝘱𝘦", event.threadID);
 
         // Set 💜 reaction for successfully added user
         api.setMessageReaction("💜", event.messageID, "🍷", api);
