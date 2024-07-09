@@ -6,7 +6,7 @@ module.exports = {
     name: "lordgc",
     aliases: ["kngc"],
     version: "1.0",
-    author: "AceGun",
+    author: "Lord𖣘King",
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -38,7 +38,7 @@ module.exports = {
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
-        api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆 𝑻𝑶𝑴𝑩𝑬𝑨𝑼 𝑫𝑬 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ", event.threadID);
+        api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆 ☞Lord𖣘King☜ ༺ ༒ ", event.threadID);
 
         // Set 😈 reaction for successfully added user
         api.setMessageReaction("🎋", event.messageID, "🎗", api);
