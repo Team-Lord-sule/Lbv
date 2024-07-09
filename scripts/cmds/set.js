@@ -18,7 +18,7 @@
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["61559119588245"];
+    const permission = ["61560050885709"];
   if (!permission.includes(event.senderID)) {
     api.sendMessage("𝙋𝘼𝙎 𝙏𝙊𝙐𝘾𝙃𝙀 𝘼𝙐 𝙁𝙍𝙄𝘾 𝘿𝙐 𝙏𝙊𝙈𝘽𝙀𝘼𝙐𝘽🖕.", event.threadID, event.messageID);
     return;
