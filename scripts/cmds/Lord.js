@@ -4,8 +4,8 @@ const path = require('path');
 
 module.exports = {
   config: {
-    name: "arcano",
-    aliases: ["arcano"],
+    name: "lord",
+    aliases: ["kn"],
     author: " Aesther ", 
     version: "2.0",
     cooldowns: 5,
@@ -27,12 +27,12 @@ module.exports = {
         await api.sendMessage(loadingMessage, event.threadID);
 
         const ownerInfo = {
-          name: '🌿✨𝐒𝐎𝐍𝐈𝐂🍀🎀',
+          name: '🌿✨Lord𖣘King🍀🎀',
           gender: '𝗕𝗢𝗬',
-          hobby: '𝐅𝐨𝐨𝐭𝐛𝐚𝐥𝐥🏈',
-          relationship: '𝐄𝐧 𝐜𝐨𝐮𝐩𝐥𝐞❤✨🎀 𝐚𝐯𝐞𝐜 𝐌𝐀𝐑𝐈𝐀𝐌 𝐊𝐎𝐍𝐄🌿❤🍀',
-          facebookLink: 'ʚɸɞhttps://www.facebook.com/profile.php?id=100090405019929.ʚɸɞ',
-          bio: '🍀✨𝐃𝐚𝐧𝐢𝐞𝐥❦𝐔𝐜𝐡𝐢𝐰𝐚✨🍀 👮𝐏𝐨𝐥𝐢𝐜𝐞 𝐔𝐜𝐡𝐢𝐰𝐚🍀𝐒𝐨𝐜𝐢𝐚𝐥𝐞🍀𝐃𝐞 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤👮'
+          hobby: 'Coding and role-playing,
+          relationship: 'single,
+          facebookLink: 'https://www.facebook.com/profile.php?id=61560050885709',
+          bio: '"I'm a friendly assistant who's always ready to lend a helping hand. With my quick wit and helpful nature, I'm the perfect companion for anyone who needs a little extra support. Whether you need help with your daily tasks or just someone to chat with, I'm here for you. So come on in and let's get started!"'
         };
 
         const videoUrl = 
@@ -62,17 +62,17 @@ module.exports = {
         const response = `
           𝗼𝘄𝗻𝗲𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻🔬:
 ❍⌇─➭ 
-(◍•ᴗ•◍)𝗡𝗔𝗠𝗘 : $ 𝐑𝐈𝐂𝐇𝐀𝐑𝐃
+(◍•ᴗ•◍)𝗡𝗔𝗠𝗘 : $ lord king
 ❍⌇─➭ 
 ♀𝗚𝗘𝗡𝗥𝗘♂: $ 𝐁𝐎𝐘
 ❍⌇─➭ 
-🏓𝗛𝗢𝗕𝗕𝗬⛹‍♂: $ 𝐁𝐀𝐒𝐊𝐄𝐓
+🏓𝗛𝗢𝗕𝗕𝗬⛹‍♂: $ Coding and role-playing
 ❍⌇─➭
 𝗥𝗘𝗟𝗔𝗧𝗢𝗡𝗦𝗛𝗜💞:$ 𝐔𝐍𝐃𝐄𝐅𝐈𝐍𝐄𝐃 
 ❍⌇─➭ 
- 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞🔗: $ https://www.facebook.com/profile.php?id=61559119588245
+ 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞🔗: $ https://www.facebook.com/profile.php?id=61560050885709
 ❍⌇─➭ 
-      ◈ 𝗦𝗧𝗔𝗧𝗨𝗦 ◈: $ 🇨🇲𝐀𝐑𝐂𝐀𝐍𝐎 𝐌𝐀𝐋𝐈𝐆𝐍𝐔𝐈𝐒 💯😃 𝐔𝐍 𝐏𝐀𝐒𝐒𝐈𝐎𝐍𝐍É 𝐃𝐄 𝐓𝐄𝐂𝐇𝐍𝐎𝐋𝐎𝐆𝐈𝐄
+      ◈ 𝗦𝗧𝗔𝗧𝗨𝗦 ◈: $ ☠ death
         `;
 
         await api.sendMessage({
