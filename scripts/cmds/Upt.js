@@ -1,6 +1,6 @@
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛  \n____________________\nhttps://m.me/lordjaydenSmith.1\n____________________\n";
+const doNotDelete = "𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛 \n____________________\nhttps://m.me/lordjaydenSmith.1\n____________________\n";
 /** 
 * @author NTKhang
 * @author: do not delete it
