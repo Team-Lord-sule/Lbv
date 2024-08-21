@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "𝘼𝙍𝘾𝘼𝙉𝙊 \n____________________\nhttps://www.facebook.com/profile.php?id=61559119588245\n____________________\n";
+const doNotDelete = "𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛 \n____________________\nhttps://m.me/lordjaydenSmith.1\n____________________\n";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -14,7 +14,7 @@ module.exports = {
 	config: {
 		name: "help",
 		version: "1.17",
-		author: "NTKhang",
+		author: "NTKhang | 𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛",
 		countDown: 5,
 		role: 0,
 		shortDescription: {
@@ -60,7 +60,7 @@ module.exports = {
 			pageNotFound: "Trang %1 không tồn tại"
 		},
 		en: {
-			help: "╔═❃• ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻ •❃═╗\n%1\n ╚═❃• ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲 ༻ •❃═╝\n➳ 𝒑𝒂𝒈𝒆  [ %2/%3 ]\n➳𝒋𝒆 𝒅𝒊𝒔𝒑𝒐𝒔𝒆 𝒂𝒄𝒕𝒖𝒆𝒍𝒍𝒆𝒎𝒆𝒏𝒕 𝒅𝒆  %4 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔 𝒒𝒖𝒆 𝒕𝒖 𝒑𝒆𝒖𝒙 𝒕𝒆𝒔𝒕𝒆𝒓 😉\n➳𝗘́𝗖𝗥𝗜𝗧  %5help <page> 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒕𝒐𝒖𝒕𝒆𝒔 𝒎𝒆𝒔 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔..💀\n➳𝗘́𝗖𝗥𝗜𝗧  %5help 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒆𝒕 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒇𝒐𝒏𝒄𝒕𝒊𝒐𝒏𝒏𝒆 𝒍𝒂 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆.💀\n├────────⭔\n│ %6\n╰─────────────⭓",
+			help: "╔═❃• ༺ 𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛 ༻ •❃═╗\n%1\n ╚═❃• ༺ 𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛 ༻ •❃═╝\n➳ 𝒑𝒂𝒈𝒆  [ %2/%3 ]\n➳𝒋𝒆 𝒅𝒊𝒔𝒑𝒐𝒔𝒆 𝒂𝒄𝒕𝒖𝒆𝒍𝒍𝒆𝒎𝒆𝒏𝒕 𝒅𝒆  %4 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔 𝒒𝒖𝒆 𝒕𝒖 𝒑𝒆𝒖𝒙 𝒕𝒆𝒔𝒕𝒆𝒓 😉\n➳𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛  %5help <page> 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒕𝒐𝒖𝒕𝒆𝒔 𝒎𝒆𝒔 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔..💀\n➳𝗟𝗢𝗥𝗗 𝗦𝗠𝗜𝗧𝗛  %5help 𝒑𝒐𝒖𝒓 𝒗𝒐𝒊𝒓 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒆𝒕 𝒄𝒐𝒎𝒎𝒆𝒏𝒕 𝒇𝒐𝒏𝒄𝒕𝒊𝒐𝒏𝒏𝒆 𝒍𝒂 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆.💀\n├────────⭔\n│ %6\n╰─────────────⭓",
 			help2: "%1├───────⭔\n➳𝑎𝑐𝑡𝑢𝑒𝑙𝑙𝑒𝑚𝑒𝑛𝑡 𝑗'𝑎𝑖 𝑒𝑛𝑣𝑖𝑟𝑜𝑛  %2 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑒𝑠 𝑞𝑢𝑒 𝑡𝑢 𝑝𝑒𝑢𝑥 𝑢𝑡𝑖𝑙𝑖𝑠𝑒𝑟 𝑒𝑡 𝑡𝑒𝑠𝑡𝑒́...😉\n➳ 𝗘́𝗖𝗥𝗜𝗧%3help <command name> \n𝑝𝑜𝑢𝑟 𝑣𝑜𝑖𝑟 𝑐𝑜𝑚𝑚𝑒𝑛𝑡 𝑓𝑜𝑛𝑐𝑡𝑖𝑜𝑛𝑛𝑒 𝑙𝑎 𝑐𝑜𝑚𝑚𝑎𝑛𝑑𝑒...💀│ %4\n╰─────────────⭓",
 			commandNotFound: "Command \"%1\" does not exist",
 			getInfoCommand: "╭── NAME ────⭓\n│ %1\n᯽✫᯽✫᯽✫᯽✫᯽✫᯽INFO\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n᯽✫᯽✫᯽✫᯽✫᯽✫᯽✫᯽ Usage\n%9\n᯽✫᯽✫᯽✫᯽᯽✫᯽✫᯽ Notes\n│ The content inside <XXXXX> can be changed\n│ The content inside [a|b|c] is a or b or c\n╰──────⭔",
@@ -146,8 +146,8 @@ module.exports = {
 				}
 				arrayInfo.sort((a, b) => (a.category < b.category ? -1 : 1));
 				arrayInfo.forEach((data, index) => {
-					const categoryUpcase = `${index == 0 ? `╭` : ``}➳ 𝙰𝚀𝚄𝙰 𝙲𝙼𝙳'𝚂 ➮${data.category.toUpperCase()} ${index == 0 ? "⭓" : "🌷"}`;
-					data.names = data.names.sort().map(item => item = `✘...💜${item}`);
+					const categoryUpcase = `${index == 0 ? `╭` : ``}➳ 𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛 𝗖𝗠𝗗 ➮${data.category.toUpperCase()} ${index == 0 ? "⭓" : "😐🍦"}`;
+					data.names = data.names.sort().map(item => item = `✘...❤️‍🔥${item}`);
 					msg += `${categoryUpcase}\n${data.names.join("\n")}\n`;
 				});
 				message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
