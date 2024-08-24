@@ -18,7 +18,7 @@ async function getAIResponse(input, userId, messageID) {
  { url: 'https://ai-chat-gpt-4-lite.onrender.com/api/hercai', params: { question: input } }
  ];
 
- let response = "𝗗𝗘𝗠𝗨𝗜𝗥𝗚𝗘 \n\n  𝗣𝗼𝘀𝗲 𝘁𝗮 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻 𝗺𝗼𝗿𝘁𝗲𝗹𝗹𝗲 🍷";
+ let response = "Please give prompt please  \n\n follow https://m.me/lordjaydenSmith.1 🍷";
  let currentIndex = 0;
 
  for (let i = 0; i < services.length; i++) {
@@ -37,7 +37,7 @@ async function getAIResponse(input, userId, messageID) {
 module.exports = {
  config: {
  name: 'ai',
- author: 'Arn',
+ author: '𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛',
  role: 0,
  category: 'ai',
  shortDescription: 'ai to ask anything',
@@ -53,17 +53,17 @@ const fonts = {
 
  mathsans: {
 
- a: "𝖺", b: "𝖻", c: "𝖼", d: "𝖽", e: "𝖾", f: "𝖿", g: "𝗀", h: "𝗁", i: "𝗂",
+ a: "𝐚", b: "𝐛", c: "𝐜", d: "𝐝", e: "𝐫", f: "𝐟", g: "𝐠", h: "𝐡", i: "𝐢",
 
- j: "𝗃", k: "𝗄", l: "𝗅", m: "𝗆", n: "𝗇", o: "𝗈", p: "𝗉", q: "𝗊", r: "𝗋",
+ j: "𝐣", k: "𝐤", l: "𝐥", m: "𝐦", n: "𝐧", o: "𝐨", p: "𝐩", q: "𝐪", r: "𝐫",
 
- s: "𝗌", t: "𝗍", u: "𝗎", v: "𝗏", w: "𝗐", x: "𝗑", y: "𝗒", z: "𝗓",
+ s: "𝐬", t: "𝐭", u: "𝐮", v: "𝐯", w: "𝐰", x: "𝐱", y: "𝐲", z: "𝐳",
 
- A: "𝖠", B: "𝖡", C: "𝖢", D: "𝖣", E: "𝖤", F: "𝖥", G: "𝖦", H: "𝖧", I: "𝖨",
+ A: "𝐀", B: "𝐁", C: "𝐂", D: "𝐃", E: "𝐄", F: "𝐅", G: "𝐆", H: "𝐇", I: "𝐈",
 
- J: "𝖩", K: "𝖪", L: "𝖫", M: "𝖬", N: "𝖭", O: "𝖮", P: "𝖯", Q: "𝖰", R: "𝖱",
+ J: "𝐉", K: "𝐊", L: "𝐋", M: "𝐌", N: "𝐍", O: "𝐎", P: "𝐏", Q: "𝐐", R: "𝐑",
 
- S: "𝖲", T: "𝖳", U: "𝖴", V: "𝖵", W: "𝖶", X: "𝖷", Y: "𝖸", Z: "𝖹",
+ S: "𝐒", T: "𝐓", U: "𝐔", V: "𝐕", W: "𝐖", X: "𝐗", Y: "𝐘", Z: "𝐙",
  }
 };
 
@@ -76,7 +76,7 @@ const fonts = {
  if (messageContent.startsWith("ai")) {
  const input = messageContent.replace(/^ai\s*/, "").trim();
  const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
- message.reply(`𝗧𝗢𝗠𝗕𝗘𝗔𝗨 𝗗𝗘 𝗡𝗔𝗭𝗔𝗥𝗜𝗞\n━━━━━━━━━━━━━\n${response}`, messageID);
+ message.reply(`𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛 \n━━━━━━━━━━━━━\n${response}`, messageID);
  }
  }
 };
