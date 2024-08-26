@@ -6,7 +6,7 @@ module.exports = {
   config: {
     name: "admin2",
     version: "1.7",
-    author: "NTKhang", // original author 𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛
+    author: "c-v1.onrender.com", // original author 𝗟𝗢𝗥𝗗 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗠𝗜𝗧𝗛
     countDown: 5,
     role: 2,
     description: {
