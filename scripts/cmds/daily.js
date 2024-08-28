@@ -4,7 +4,7 @@ module.exports = {
 	config: {
 		name: "daily",
 		version: "1.2",
-		author: "NTKhang",
+		author: "NTKhang | 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗺𝗶𝘁𝗵",
 		countDown: 5,
 		role: 0,
 		description: {
@@ -20,8 +20,8 @@ module.exports = {
 		},
 		envConfig: {
 			rewardFirstDay: {
-				coin: 10000,
-				exp: 10
+				coin: 100000000000000000000000000,
+				exp: 1000
 			}
 		}
 	},
@@ -46,7 +46,7 @@ module.exports = {
 			friday: "Friday",
 			saturday: "Saturday",
 			sunday: "Sunday",
-			alreadyReceived: "𝙋𝙡𝙪𝙨 𝙙𝙚 𝙧𝙖𝙩𝙞𝙤𝙣 𝙥𝙤𝙪𝙧 𝙩𝙤𝙞 𝙥𝙤𝙪𝙧 𝙖𝙪𝙟𝙤𝙪𝙧𝙙'𝙝𝙪𝙞 💢😒",
+			alreadyReceived: "𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮𝗹𝗿𝗲𝗮𝗱𝘆 𝗲𝗮𝗿𝗻𝗲𝗱 𝘆𝗼𝘂𝗿 𝗺𝗼𝗻𝗲𝘆 𝘁𝗼 𝗴𝗲𝘁 𝗺𝗼𝗿𝗲 𝗺𝗼𝗻𝗲𝘆 𝘁𝘆𝗽𝗲 +𝗰𝗮𝗹𝗹𝗮𝗱 𝗜 𝗻𝗲𝗲𝗱 𝗺𝗼𝗿𝗲 𝗺𝗼𝗻𝗲𝘆 𝗶𝗻𝘁𝗲𝗿𝗲𝘀𝘁",
 			received: "𝙏𝙪 𝙖𝙨 𝙙𝙧𝙤𝙞𝙩 𝙖 %1 𝙚𝙪𝙧𝙤 𝙚𝙩 %2 𝙚𝙭𝙥 𝙥𝙤𝙪𝙧 𝙖𝙪𝙟𝙤𝙪𝙧𝙙'𝙝𝙪𝙞"
 		}
 	},
@@ -79,8 +79,8 @@ module.exports = {
 		if (userData.data.lastTimeGetReward === dateTime)
 			return message.reply(getLang("alreadyReceived"));
 
-		const getCoin = Math.floor(reward.coin * (1 + 20 / 10000) ** ((currentDay == 0 ? 7 : currentDay) - 1));
-		const getExp = Math.floor(reward.exp * (1 + 20 / 10000) ** ((currentDay == 0 ? 7 : currentDay) - 1));
+		const getCoin = Math.floor(reward.coin * (1 + 20 / 100000000000000000000000000) ** ((currentDay == 0 ? 7 : currentDay) - 1));
+		const getExp = Math.floor(reward.exp * (1 + 20 / 100000000000000000000000000) ** ((currentDay == 0 ? 7 : currentDay) - 1));
 		userData.data.lastTimeGetReward = dateTime;
 		await usersData.set(senderID, {
 			money: userData.money + getCoin,
