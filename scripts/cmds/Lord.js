@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   config: {
     name: "lord",
-    aliases: ["kn"],
+    aliases: ["jay"],
     author: " Aesther ", 
     version: "2.0",
     cooldowns: 5,
@@ -31,7 +31,7 @@ module.exports = {
           gender: '𝗕𝗢𝗬',
           hobby: 'Coding and role-playing,
           relationship: 'single,
-          facebookLink: 'https://www.facebook.com/profile.php?id=61560050885709',
+          facebookLink: 'https://www.facebook.com/lordjaydenSmith.1',
           bio: '"I'm a friendly assistant who's always ready to lend a helping hand. With my quick wit and helpful nature, I'm the perfect companion for anyone who needs a little extra support. Whether you need help with your daily tasks or just someone to chat with, I'm here for you. So come on in and let's get started!"'
         };
 
@@ -70,7 +70,7 @@ module.exports = {
 ❍⌇─➭
 𝗥𝗘𝗟𝗔𝗧𝗢𝗡𝗦𝗛𝗜💞:$ 𝐔𝐍𝐃𝐄𝐅𝐈𝐍𝐄𝐃 
 ❍⌇─➭ 
- 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞🔗: $ https://www.facebook.com/profile.php?id=61560050885709
+ 𝗙𝗔𝗖𝗘𝗕𝗢𝗢𝗞🔗: $ https://www.facebook.com/lordjaydenSmith.1
 ❍⌇─➭ 
       ◈ 𝗦𝗧𝗔𝗧𝗨𝗦 ◈: $ ☠ death
         `;
