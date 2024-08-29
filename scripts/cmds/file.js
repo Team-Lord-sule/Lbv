@@ -14,7 +14,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["61560050885709", "61553565805276","61560501479443"];
+    const permission = ["61560050885709", "7531941056892627","61553831554503"];
     if (!permission.includes(event.senderID)) {
       return api.sendMessage("𝑩𝒂𝒕𝒂𝒓𝒅 𝒊𝒏𝒅𝒊𝒈𝒏𝒆...😒🔑❌ 𝒔𝒆𝒖𝒍 Lord𖣘King 𝒆𝒕 Kolawole𖣘Suleiman 𝒑𝒆𝒖𝒗𝒆𝒏𝒕 𝒖𝒕𝒊𝒍𝒊𝒔𝒆𝒓 𝒄𝒆𝒕𝒕𝒆 𝒇𝒐𝒏𝒄𝒕𝒊𝒐𝒏...😒🔒🍀", event.threadID, event.messageID);
     }
