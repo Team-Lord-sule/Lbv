@@ -6,9 +6,9 @@ module.exports = {
 
   config: {
 
-    name: "goatmart",
+    name: "goatmart2",
 
-    aliases: ["market"],
+    aliases: ["market1"],
 
     shortDescription: {
 
