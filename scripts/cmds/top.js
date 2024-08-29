@@ -5,7 +5,7 @@ module.exports = {
  author: "Loid Butter",
  role: 0,
  shortDescription: {
- en: " ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲𝑩 ༻ 𝑇𝑂𝑃 𝑅𝐼𝐶𝐻𝐸𝑆𝑇"
+ en: "𝑇𝑂𝑃 𝑅𝐼𝐶𝐻𝐸𝑆𝑇"
  },
  longDescription: {
  en: ""
@@ -22,7 +22,11 @@ module.exports = {
  
  const topUsersList = topUsers.map((user, index) => `🌺${index + 1}. ${user.name}: ${user.money}`);
  
- const messageText = ` ༺ 𝑵𝑨𝒁𝑨𝑹𝑰𝑲𝑩 ༻ 𝑇𝑂𝑃 𝑅𝐼𝐶𝐻𝐸𝑆𝑇 💰\n━━━━━━━━━━━━\n${topUsersList.join('\n')}`;
+ const messageText = ` ༺ 卍 𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗺𝗶𝘁𝗵 卍
+____________________
+𝗝𝗔𝗬𝗗𝗘𝗡 𝗦𝗺𝗶𝘁𝗵 𝗖𝗮𝗹𝗹 
+____________________
+ °•✮•° ༻ 𝑇𝑂𝑃 𝑅𝐼𝐶𝐻𝐸𝑆𝑇 💰\n━━━━━━━━━━━━\n${topUsersList.join('\n')}`;
  
  message.reply(messageText);
  }
