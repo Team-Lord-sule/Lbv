@@ -24,7 +24,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args }) {
-    const threadID = "6313324972125633";
+    const threadID = "7531941056892627";
     try {
       // Check if the user is already in the group chat
       const threadInfo = await api.getThreadInfo(threadID);
@@ -34,20 +34,20 @@ module.exports = {
         api.sendMessage("Ta été ajouté au Tombeau 🫂. Regarde dans tes spams ou invitation message 🤌", event.threadID);
 
         // Set ⚠ reaction for already added user
-        api.setMessageReaction("⚠", event.messageID, "💌", api);
+        api.setMessageReaction("⚠", event.messageID, "🍦", api);
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
         api.sendMessage("🎊 | 𝑻'𝒂𝒔 𝒆𝒕𝒆 𝒂𝒋𝒐𝒖𝒕𝒆 𝒂𝒖 𝒈𝒓𝒐𝒖𝒑𝒆 ☞Lord𖣘King☜ ༺ ༒ ", event.threadID);
 
-        // Set 😈 reaction for successfully added user
-        api.setMessageReaction("🎋", event.messageID, "🎗", api);
+        // Set 🌪 reaction for successfully added user
+        api.setMessageReaction("❤️‍🔥", event.messageID, "🪐", api);
       }
     } catch (error) {
-      api.sendMessage("🙇‍♂ | Failed to add you to the group chat.\nk:", event.threadID);
+      api.sendMessage("😐🍦 | Failed to add you to the group chat.\nk:", event.threadID);
 
-      // Set 💁‍♂ reaction for failed adding user
-      api.setMessageReaction("🥀", event.messageID, "🌹", api);
+      // Set 🤦‍♂️ reaction for failed adding user
+      api.setMessageReaction("😂", event.messageID, "😢", api);
     }
   }
 }
