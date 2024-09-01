@@ -32,7 +32,9 @@ module.exports = {
           hobby: 'Coding and role-playing,
           relationship: 'single,
           facebookLink: 'https://www.facebook.com/lordjaydenSmith.1',
-          bio: '"I'm a friendly assistant who's always ready to lend a helping hand. With my quick wit and helpful nature, I'm the perfect companion for anyone who needs a little extra support. Whether you need help with your daily tasks or just someone to chat with, I'm here for you. So come on in and let's get started!"'
+          bio: '"In the echo of time,
+Hearts entwined, love's chime.
+"'
         };
 
         const videoUrl = 
