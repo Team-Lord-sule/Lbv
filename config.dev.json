@@ -19,13 +19,15 @@
                  
 		
 		
-		"enable": false,
+		"enable": true,
 		"ignoreCommand": [
-""
+"sage.js"
 ]
 	},
 	"adminBot": [
-		"61560050885709"
+		"61560050885709",
+  "7531941056892627",
+  "61563234700684"
 	],
 	"whiteListMode": {
 		"enable": false,
