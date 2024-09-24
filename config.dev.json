@@ -19,7 +19,7 @@
                  
 		
 		
-		"enable": true,
+		"enable": false,
 		"ignoreCommand": [
 "sage.js"
 ]
