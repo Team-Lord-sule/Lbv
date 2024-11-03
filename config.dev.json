@@ -130,27 +130,27 @@
 		"needRoleToUseCmdOnReply": false,
 		"needRoleToUseCmdOnReaction": false
 	},
-	"logEvents": {
-		"disableAll": false,
-		"message": true,
-		"message_reaction": true,
-		"message_unsend": true,
-		"message_reply": true,
-		"event": true,
-		"read_receipt": true,
-		"typ": true,
-		"presence": false
-	},
-	"optionsFca": {
-		"forceLogin": true,
-		"listenEvents": true,
-		"updatePresence": true,
-		"listenTyping": true,
-		"logLevel": "error",
-		"selfListen": false,
-		"selfListenEvent": true,
-		"autoMarkDelivery": false,
-		"autoReconnect": false,
-		"notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-	}
+	  "logEvents": {
+    "disableAll": false,
+    "message": true,
+    "message_reaction": true,
+    "message_unsend": true,
+    "message_reply": true,
+    "event": true,
+    "read_receipt": false,
+    "typ": false,
+    "presence": false
+  },
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": false,
+    "selfListenEvent": true,
+    "autoMarkDelivery": false,
+    "autoReconnect": false,
+    "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
+  }
 }
