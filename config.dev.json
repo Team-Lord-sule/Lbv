@@ -137,8 +137,8 @@
 		"message_unsend": true,
 		"message_reply": true,
 		"event": true,
-		"read_receipt": false,
-		"typ": false,
+		"read_receipt": true,
+		"typ": true,
 		"presence": false
 	},
 	"optionsFca": {
