@@ -1,0 +1,54 @@
+const { getStreamFromURL } = require("fb-watchman");
+const { getAdmins } = require('fb-watchman'); // Assuming you have a function to get admins
+
+module.exports = {
+  config: {
+    name: "silent",
+    version: 2.0,
+    author: "OtinXSandip",
+    longDescription: "info about bot and owner, including admin list and user balance",
+    category: "silent",
+    guide: {
+      en: "{p}{n}",
+    },
+  },
+
+  onStart: async function ({ api, event, args, message, usersData, balanceData }) {
+    const imgURL = "https://i.imgur.com/M2bZSef.jpg";
+    const attachment = await global.utils.getStreamFromURL(imgURL);
+
+    const id = event.senderID;
+    const userData = await usersData.get(id);
+    const name = userData.name;
+    const balance = await balanceData.get(id) || 0; // Assuming you have a balanceData object
+
+    const admins = await getAdmins(); // Get admin list
+    const adminList = admins.map(admin => admin.name).join(', ');
+
+    const ment = [{ id: id, tag: name }];
+
+    message.reply({
+      body: `${name}, here is the information 🌝
+🌸 Bot's Name: Mateo
+🌸 Bot's prefix: .
+🌸 Owner: Jayden Smith
+🌸 Gender: Male
+🌸 Messenger: https://m.me/lordjaydenSmith.1
+🌸 Insta: ig.me/jaydenemith
+🌸 Relationship: single🙂
+🌸 Current balance: ${balance}
+🌸 Admins: ${adminList}
+🌸 bot says: Need ongoing support? Type .supportgc to join our group and connect with others. Goodbye!`,
+      mentions: ment,
+      attachment: attachment
+    });
+
+    // Check if the message is from an admin and if they want the bot to leave
+    if (admins.some(admin => admin.id === id) && message.body.toLowerCase() === 'yes') {
+      message.reply({
+        body: "Leaving the group chat! 👋"
+      });
+      api.removeUserFromGroup(event.threadID, api.getCurrentUserID()); // Leave the group
+    }
+  }
+};
