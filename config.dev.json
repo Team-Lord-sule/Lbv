@@ -19,9 +19,9 @@
                  
 		
 		
-		"enable": true, 
+		"enable": false, 
 		"ignoreCommand": [
-"callad.js"
+""
 ]
 	},
 	"adminBot": [
@@ -31,7 +31,7 @@
  "100090764310659"
 	],
 	"whiteListMode": {
-		"enable": true,
+		"enable": false,
 		"whiteListIds": ["61560050885709","100088590098255"],
 		"notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
 	},
